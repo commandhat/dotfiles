@@ -1,0 +1,138 @@
+{
+    "Name": "commandhat",
+    "Theme": "AAAAAQAAAAAAAAAA/////wAAAAABAAAABQAAAAwB//+qqlVV//8AAAAAAAA=",
+    "Version": 1,
+    "Widgets": [
+        {
+            "SplitterVertical": {
+                "State": "AAAA/wAAAAEAAAACAAACJAAAADkA/////wEAAAACAA==",
+                "Widgets": [
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAAESQAAACoA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAAAkwAAA3kA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "PlaylistManager": {
+                                                    "ActivateOnSingleClick": false,
+                                                    "State": "AAAA/wAAAAAAAAABAAAAAP////8BAAAAAAAAAAAAAAAEDgAAAAMAAAADAAAAVgAAAAEAAABEAAAAAgAAAGQAAACcAAAABAEBAAAAAAAAAQAAAAMAAABk/////wAAAIQAAAAAAAAABAAAAJwAAAABAAAAAQAAAAAAAAABAAAAAwAAAAAAAAABAAAAAwAAAAAAAAABAAAAAwAAA+gAAAAAAAAAAAAAAAAAAAAAAAAAAAE="
+                                                }
+                                            },
+                                            {
+                                                "Playlist": {
+                                                    "Columns": "8:132|1|7:2",
+                                                    "HeaderState": "AAAARXjaY2BgYGZgYBABUiFA2pkBwgcBRiBmAvHtp57s0J4sEG7/llHsQcYUdftNLc8+Xpu1DqSA4T8QAAAjnxCy",
+                                                    "ID": "01bb8582bc7f4269b5e0114a09fe4ded",
+                                                    "Preset": 0,
+                                                    "SingleMode": false
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "VUMeter": {
+                                        "BarSections": 1,
+                                        "BarSize": 0,
+                                        "BarSpacing": 1,
+                                        "ChannelSpacing": 1,
+                                        "FalloffTime": 13,
+                                        "Orientation": 2,
+                                        "PeakHoldTime": 1.5,
+                                        "SectionSpacing": 1,
+                                        "ShowLegend": false,
+                                        "ShowPeaks": false,
+                                        "UpdateFps": 40,
+                                        "UseCustomColours": false
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "SplitterHorizontal": {
+                            "State": "AAAA/wAAAAEAAAACAAAAcAAABAMA/////wEAAAABAA==",
+                            "Widgets": [
+                                {
+                                    "SplitterVertical": {
+                                        "State": "AAAA/wAAAAEAAAACAAAAJAAAACQA/////wEAAAACAA==",
+                                        "Widgets": [
+                                            {
+                                                "PlayerControls": {
+                                                }
+                                            },
+                                            {
+                                                "PlaylistControls": {
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "SplitterHorizontal": {
+                                        "State": "AAAA/wAAAAEAAAACAAADcgAAAJAA/////wEAAAABAA==",
+                                        "Widgets": [
+                                            {
+                                                "WaveBar": {
+                                                    "BarGap": 0,
+                                                    "BarWidth": 1,
+                                                    "CentreGap": 0,
+                                                    "ChannelScale": 0.9,
+                                                    "CursorWidth": 3,
+                                                    "Downmix": 0,
+                                                    "MaxScale": 1,
+                                                    "Mode": 3,
+                                                    "ShowCursor": true,
+                                                    "ShowLabels": false,
+                                                    "ShowRemainingTime": false,
+                                                    "SupersampleFactor": 1,
+                                                    "UseCustomColours": false
+                                                }
+                                            },
+                                            {
+                                                "SplitterVertical": {
+                                                    "State": "AAAA/wAAAAEAAAACAAAAHAAAABwA/////wEAAAACAA==",
+                                                    "Widgets": [
+                                                        {
+                                                            "SplitterHorizontal": {
+                                                                "State": "AAAA/wAAAAEAAAACAAAAkgAAAJIA/////wEAAAABAA==",
+                                                                "Widgets": [
+                                                                    {
+                                                                        "CommandButton": {
+                                                                            "CommandId": "Volume.Mute",
+                                                                            "IconPath": "",
+                                                                            "Text": "",
+                                                                            "ToolButtonStyle": 0
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "VolumeControls": {
+                                                                            "Mode": 3
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "SeekBar": {
+                                                                "ShowLabels": true,
+                                                                "ShowRemainingTime": false
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
